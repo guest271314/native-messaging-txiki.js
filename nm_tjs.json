@@ -1,0 +1,7 @@
+{
+  "name": "nm_tjs",
+  "description": "txiki.js Native Messaging Host",
+  "path": "",
+  "type": "stdio",
+  "allowed_origins": []
+}
