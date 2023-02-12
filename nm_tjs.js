@@ -2,6 +2,8 @@
 // txiki.js Native Messaging host
 // guest271314, 2-10-2023
 
+// https://github.com/denoland/deno/discussions/17236#discussioncomment-4566134
+// https://github.com/saghul/txiki.js/blob/master/src/js/core/tjs/eval-stdin.js
 async function readFullAsync(length) {
   const buffer = new Uint8Array(65536);
   const data = [];
