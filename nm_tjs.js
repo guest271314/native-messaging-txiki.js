@@ -2,9 +2,6 @@
 // txiki.js Native Messaging host
 // guest271314, 2-10-2023
 
-let encoder = new TextEncoder();
-//let decoder = new TextDecoder();
-
 async function readFullAsync(length) {
   const buffer = new Uint8Array(65536);
   const data = [];
