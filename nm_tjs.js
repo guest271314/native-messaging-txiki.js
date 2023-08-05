@@ -43,7 +43,6 @@ async function sendMessage(message) {
 }
 
 async function main() {
-  // let message, proc, data;
   try {
     while (true) {
       const message = await getMessage();
