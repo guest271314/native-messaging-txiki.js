@@ -1,10 +1,11 @@
 #!/usr/bin/env -S /home/user/bin/tjs run
-// guest271314, 2-10-2023
-//
-// #!/usr/bin/env -S /home/user/bin/tjs run
-// #!/usr/bin/env -S DENO_COMPAT=1 /home/user/bin/deno -A --v8-flags="--expose-gc"
-// #!/usr/bin/env -S /home/user/bin/bun -b --expose-gc
-// #!/usr/bin/env -S UV_THREADPOOL_SIZE=1 /home/user/bin/node --optimize-for-size --zero-unused-memory --memory-saver-mode --double-string-cache-size=1 --experimental-flush-embedded-blob-icache --jitless --expose-gc --v8-pool-size=1
+//! txiki.js Native Messaging host
+//! guest271314, 2-10-2023
+//!
+//! #!/usr/bin/env -S /home/user/bin/tjs run
+//! #!/usr/bin/env -S DENO_COMPAT=1 /home/user/bin/deno -A --v8-flags="--expose-gc"
+//! #!/usr/bin/env -S /home/user/bin/bun -b --expose-gc
+//! #!/usr/bin/env -S UV_THREADPOOL_SIZE=1 /home/user/bin/node --optimize-for-size --zero-unused-memory --memory-saver-mode --double-string-cache-size=1 --experimental-flush-embedded-blob-icache --jitless --expose-gc --v8-pool-size=1
 
 if (!Object.hasOwn(globalThis, "process")) {
   if (navigator.userAgent.startsWith("txiki.js")) {
